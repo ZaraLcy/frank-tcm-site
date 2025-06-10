@@ -1,4 +1,68 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://frank-tcm.github.io/"
+title = "Frank Lee 的中醫學習筆記"
+languageCode = "zh-tw"
+defaultContentLanguage = "zh-tw"
+hasCJKLanguage = true
 theme = "PaperMod"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+summaryLength = 70
+
+[params]
+  env = "production"
+  author = "Frank Lee"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowWordCount = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "👨‍⚕️ 歡迎來到 Frank Lee 的中醫學習園地"
+    Content = "這裡收錄醫案、條文、方劑與心得，幫助自己與同道理解與整理中醫臨床思路。"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/frank-tcm"
+
+[[params.socialIcons]]
+  name = "substack"
+  url = "https://substack.com/@franklee529"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "case"
+    name = "醫案整理"
+    url = "/categories/醫案/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "formula"
+    name = "方劑條文"
+    url = "/categories/方劑/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "notes"
+    name = "學習筆記"
+    url = "/categories/筆記/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "關於本站"
+    url = "/about/"
+    weight = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3

@@ -11,10 +11,14 @@
             "id": "0c3c86613726fd17",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/about.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "about"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向連結"
+              "title": "about 的反向連結"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "對外連結"
+              "title": "about 的對外連結"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/about.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大綱"
+              "title": "about 的大綱"
             }
           }
         ]
@@ -161,6 +168,22 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "0c3c86613726fd17",
-  "lastOpenFiles": []
+  "active": "12e410ab98839fe0",
+  "lastOpenFiles": [
+    "public/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css",
+    "public/page/1/index.html",
+    "public/assets/css",
+    "public/categories/index.html",
+    "public/categories/index.xml",
+    "public/tags/index.xml",
+    "public/tags/index.html",
+    "public/page/1",
+    "public/tags",
+    "public/sitemap.xml",
+    "public/robots.txt",
+    "content/about.md",
+    "themes/PaperMod/images/tn.png",
+    "themes/PaperMod/images/screenshot.png",
+    "themes/PaperMod/README.md"
+  ]
 }
