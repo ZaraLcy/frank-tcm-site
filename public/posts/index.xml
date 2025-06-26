@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Frank Lee 的中醫學習筆記</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Frank Lee 的中醫學習筆記</description>
+    <title>Posts on Frank Lee 的中醫學習筆記</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Frank Lee 的中醫學習筆記</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 26 Jun 2025 17:21:43 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>http://localhost:1313/posts/test/</link>
